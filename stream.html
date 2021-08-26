@@ -16,11 +16,41 @@ body {
   margin: 0;
 }
 
+/*white space*/
+p.c {
+  white-space: pre;
+}
+
+/*accordian*/
+.accordion {
+  background-color: #1abc9c;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: black; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}/*accordian end*/
+
 /*responsive img*/
 .responsive {
   width: 100%;
   height: 50%;
-}
+}/*responsive img end*/
 
 /* Header/logo Title */
 .header {
@@ -172,14 +202,90 @@ body {
 	<iframe src="https://chaturbate.com/in/?track=embed&tour=dM8p&campaign=8NwGQ&signup_notice=1&disable_sound=1&mobileRedirect=never" height="480px" width="600px" frameborder="0" class="responsive" class="code" scrolling="no"></iframe>
     <br>
     <hr>
+    
+    <h2>Select a category!</h2>
+    <button class="accordion">EBONY</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=ebony" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">MILF</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=milf" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">BIG ASS</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=bigass" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">LESBIAN</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=lesbian" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">TEEN</button>
+<div class="panel">
+ <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=teen" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">TWERK</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=twerk" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">MOMMY</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=mommy" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">INDIAN</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=indian" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">LATINA</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=latina" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
+
+<button class="accordion">ASIAN</button>
+<div class="panel">
+  <iframe src="https://chaturbate.com/in/?track=default&tour=W5j4&campaign=8NwGQ&c=20&p=0&gender=f&tag=asian" height="480px" width="600px" frameborder="0" class="responsive" class="code"></iframe>
+</div>
   </div>
 </div>
+<p class="c">
+<p class="c">
+<p class="c">
+<p class="c">
+<p class="c">
+<p class="c">
+<hr>
+<p class="c">
+<p class="c">
 <br>
 <div class="footer">
   <h2>All rights reserved Mzansicam ©</h2>
   <hr>
   <p>***DISCLAIMER: THIS PAGE CONTAINS DOCUMENTS WITH ADULT LANGUAGE AND CONTENT. IT IS NOT SUITABLE FOR ANYONE UNDER THE AGE OF 18.</p>
 </div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 <script src='https://chaturbate.com/affiliates/promotools/popup/8NwGQ/popchaturbate.js' type='text/javascript'></script>
 </body>
 </html>
